@@ -33,7 +33,7 @@ const initialPage = (container, main, handleTabSwitch) => {
 
   //FOOTER
   const footer = document.createElement("footer");
-  const copyright = document.createElement("div");
+  const copyright = document.createElement("p");
   copyright.textContent = "Copyright Aq4rius";
   footer.appendChild(copyright);
   //footer content
