@@ -1,5 +1,7 @@
 const createMenuContent = () => {
   const menuContent = document.createElement("div");
+  menuContent.classList.add("menu-content");
+
   menuContent.appendChild(
     createSalad(
       "Ceaser Salad",
@@ -47,11 +49,16 @@ const createMenuContent = () => {
 
 function createSalad(name, igredients) {
   const salad = document.createElement("div");
+  salad.classList.add("salad-div");
 
   const saladName = document.createElement("h2");
+  saladName.classList.add("salad-name");
+
   saladName.textContent = name;
 
   const saladIgredients = document.createElement("p");
+  saladIgredients.classList.add("salad-igredients");
+
   saladIgredients.textContent = igredients;
 
   salad.appendChild(saladName);

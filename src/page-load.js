@@ -3,12 +3,19 @@ import { createHomeContent } from "./home";
 const initialPage = (container, main, handleTabSwitch) => {
   //HEADER
   const header = document.createElement("header");
+  header.classList.add("header");
+
   const title = document.createElement("h1");
+  title.classList.add("title");
+
   const navbar = document.createElement("nav");
+  navbar.classList.add("navbar");
 
   title.textContent = "Salads Paradise";
 
   const list = document.createElement("ul");
+  list.classList.add("nav-list");
+
   const listElement1 = document.createElement("li");
   const listElement2 = document.createElement("li");
   const listElement3 = document.createElement("li");
@@ -33,7 +40,11 @@ const initialPage = (container, main, handleTabSwitch) => {
 
   //FOOTER
   const footer = document.createElement("footer");
+  footer.classList.add("footer");
+
   const copyright = document.createElement("p");
+  copyright.classList.add("copyright");
+
   copyright.textContent = "Copyright Aq4rius";
   footer.appendChild(copyright);
   //footer content

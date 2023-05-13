@@ -5,6 +5,7 @@ import { createContactContent } from "./contact";
 
 const container = document.querySelector("#content");
 const main = document.createElement("main");
+main.classList.add("main");
 
 const handleTabSwitch = (event) => {
   const clickedTab = event.target.textContent;
