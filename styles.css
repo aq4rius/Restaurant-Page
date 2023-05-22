@@ -30,7 +30,7 @@ video {
 /* FONTS */
 @font-face {
   font-family: Courgette;
-  src: url("/dist/fonts/Courgette-Regular.ttf");
+  src: url("fonts/Courgette-Regular.ttf");
 }
 
 /* BODY */
