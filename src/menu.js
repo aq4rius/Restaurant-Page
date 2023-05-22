@@ -6,7 +6,7 @@ const createMenuContent = () => {
     createSalad(
       "Caeser Salad",
       "Romaine lettuce, croutons, lemon juice, olive oil. Egg. Worcestershire sauce, anchovies, garlic, Dijon mustard, Parmesan cheese, and black pepper",
-      "/dist/images/Caesar.png"
+      "images/Caesar.png"
     )
   );
 
@@ -14,7 +14,7 @@ const createMenuContent = () => {
     createSalad(
       "Caprese Salad",
       "Sliced mozzarella, sliced tomatoes, sweet basil, olive oil, salt",
-      "/dist/images/Caprese.png"
+      "images/Caprese.png"
     )
   );
 
@@ -22,7 +22,7 @@ const createMenuContent = () => {
     createSalad(
       "Cobb Salad",
       "Chopped salad greens, tomato, crispy bacon, grilled or roasted chicken breast, hard-boiled eggs, avocado, chives, Roquefort cheese and red wine vinaigrette",
-      "/dist/images/Cobb.png"
+      "images/Cobb.png"
     )
   );
 
@@ -30,7 +30,7 @@ const createMenuContent = () => {
     createSalad(
       "Waldorf Salad",
       "Celery, apples, walnuts, grapes, lettuce, and mayonnaise",
-      "/dist/images/Waldorf.png"
+      "images/Waldorf.png"
     )
   );
 
@@ -38,7 +38,7 @@ const createMenuContent = () => {
     createSalad(
       "Greek Salad",
       "Tomatoes, cucumber, onion, feta cheese, olives, salt, origins and olive oil",
-      "/dist/images/Greek.png"
+      "images/Greek.png"
     )
   );
 
@@ -46,7 +46,7 @@ const createMenuContent = () => {
     createSalad(
       "Olivier Salad",
       "Diced boiled potatoes, carrots, dill pickles, peas, eggs, celeriac, onions, diced boiled chicken (or bologna sausage), tart apples, salt, pepper, mustard and mayonnaise",
-      "/dist/images/Olivier.png"
+      "images/Olivier.png"
     )
   );
 

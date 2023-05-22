@@ -14,7 +14,7 @@ const createContactContent = () => {
     "🏠 Salads Paradise, 123 Main Street, Greenville, CA 90210";
 
   const map = document.createElement("img");
-  map.src = "/dist/images/map.jpg";
+  map.src = "images/map.jpg";
   map.alt = "Salads Paradise location";
 
   contactContent.appendChild(phone);
