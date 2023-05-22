@@ -4,6 +4,7 @@ import { createMenuContent } from "./menu";
 import { createContactContent } from "./contact";
 
 const container = document.querySelector("#content");
+
 const main = document.createElement("main");
 main.classList.add("main");
 
