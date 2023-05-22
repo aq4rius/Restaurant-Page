@@ -6,5 +6,5 @@ Restaurant page built as part of  [The Odin Project](https://www.theodinproject.
 
 ## Demo
 
-[Resume Generator](https://aq4rius.github.io/Restaurant-Page/)
+[Restaurant Page](https://aq4rius.github.io/Restaurant-Page/)
 
